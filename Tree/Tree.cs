@@ -187,7 +187,7 @@ namespace Tree
             return FindNode(root, data);
         }
 
-        private Node<T>? FindNode(Node<T>? current, T data)
+        public Node<T>? FindNode(Node<T>? current, T data)
         {
             if (current == null)
                 return null;
