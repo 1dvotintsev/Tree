@@ -146,7 +146,7 @@ namespace Tree
                 {
                     if (node.Data.CompareTo(data) < 0)
                     {
-                        node = node.Left;
+                        node = node.Left;   //попробовал поменять местами
                     }
                     else
                     {
@@ -217,7 +217,7 @@ namespace Tree
                 parent = current;
                 if (data.CompareTo(current.Data) < 0)
                     current = current.Right;
-                else                                    //поменял местами L и R
+                else                                    
                     current = current.Left;
             }
 

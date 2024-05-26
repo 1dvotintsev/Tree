@@ -91,7 +91,7 @@ namespace Tree
                             break;
                         case 5:
                             Console.Clear();
-                            Console.WriteLine($"Глубина текущего дерева равна {tree.Depth(tree.root)}");
+                            Console.WriteLine($"Глубина текущего дерева равна {tree.Depth(Tree<Emoji>.list[currentTree - 1].root)}");
                             break;
 
                         case 6: 
