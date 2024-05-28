@@ -56,11 +56,5 @@ namespace Tree
                 return Data.ToString();
             }
         }
-
-        public int CompareTo(Node<T> other)
-        {
-            return Data.CompareTo(other.Data);
-        }
-
     }
 }
